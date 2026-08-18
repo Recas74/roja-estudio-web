@@ -34,7 +34,7 @@
     <section class="promise" aria-label="Propuesta de valor"><p>Un solo interlocutor</p><p>Presupuesto definido</p><p>Coordinación completa</p><p>Profesionales de confianza</p></section>
 
     <section class="section services" id="servicios">
-      <div class="section-heading"><p class="eyebrow">Qué hacemos</p><h2>De la idea a la<br>última junta.</h2><p>Centralizamos cada oficio, proveedor y decisión para convertir una obra compleja en un proceso claro.</p></div>
+      <div class="section-heading"><p class="eyebrow">Qué hacemos</p><h2>Convertimos tus ideas<br>en espacios construidos.</h2><p>Centralizamos cada oficio, proveedor y decisión para convertir una obra compleja en un proceso claro.</p></div>
       <div class="service-grid">
         <article class="service-card"><span>01</span><h3>Reformas integrales</h3><p>Planificamos y coordinamos la reforma completa de viviendas y locales, desde el primer derribo hasta la entrega final.</p></article>
         <article class="service-card"><span>02</span><h3>Interiores y distribución</h3><p>Diseño de espacios, tabiquería de ladrillo o pladur, falsos techos, revestimientos y soluciones a medida.</p></article>
@@ -46,7 +46,7 @@
     </section>
 
     <section class="section process" id="como-trabajamos">
-      <div class="process-title"><p class="eyebrow">Cómo trabajamos</p><h2>Orden en cada fase.</h2></div>
+      <div class="process-title"><p class="eyebrow">Cómo trabajamos</p><h2>Compromiso en cada fase.</h2></div>
       <div class="process-list">
         <article><span>01</span><h3>Visita</h3><p>Conocemos el espacio, escuchamos tus necesidades y tomamos las primeras medidas.</p></article>
         <article><span>02</span><h3>Propuesta</h3><p>Definimos alcance, materiales, presupuesto cerrado y planificación de la obra.</p></article>
@@ -56,12 +56,13 @@
     </section>
 
     <section class="section projects" id="proyectos">
-      <div class="projects-heading"><div><p class="eyebrow">Trabajo real</p><h2>Antes. Después.<br>Y todo lo que ocurre entre medias.</h2></div><p>Estamos preparando la selección de proyectos de ROJA Estudio. Aquí mostraremos reformas reales con su proceso y resultado.</p></div>
+      <div class="projects-heading"><div><p class="eyebrow">Trabajo real</p><h2>Antes. Después…<br>Y durante.</h2></div><p>Estas visualizaciones provisionales muestran cómo presentaremos cada transformación hasta incorporar nuestras fotografías reales.</p></div>
       <div class="project-grid">
-        <article class="project project-large"><div class="project-placeholder"><span>Proyecto 01</span><strong>Vivienda integral</strong><small>Valencia · Próximamente</small></div></article>
-        <article class="project"><div class="project-placeholder warm"><span>Proyecto 02</span><strong>Exterior y piscina</strong><small>Valencia · Próximamente</small></div></article>
-        <article class="project"><div class="project-placeholder dark"><span>Proyecto 03</span><strong>Local comercial</strong><small>Valencia · Próximamente</small></div></article>
+        <a class="project project-large" href="proyectos/vivienda-integral/"><div class="project-photo"><img src="images/vivienda-despues.webp" alt="Visualización de una vivienda reformada"><span>Proyecto 01</span><strong>Vivienda integral</strong><small>Ver antes y después ↗</small></div></a>
+        <a class="project" href="proyectos/exterior-piscina/"><div class="project-photo"><img src="images/piscina-despues.webp" alt="Visualización de un exterior y piscina reformados"><span>Proyecto 02</span><strong>Exterior y piscina</strong><small>Ver antes y después ↗</small></div></a>
+        <a class="project" href="proyectos/local-comercial/"><div class="project-photo"><img src="images/local-despues.webp" alt="Visualización de un local comercial reformado"><span>Proyecto 03</span><strong>Local comercial</strong><small>Ver antes y después ↗</small></div></a>
       </div>
+      <p class="concept-note">Imágenes conceptuales generadas para esta versión preliminar. Serán sustituidas por fotografías de obras realizadas.</p>
     </section>
 
     <section class="section audiences">
@@ -71,10 +72,23 @@
 
     <section class="section about" id="nosotros">
       <div class="about-mark">RO<br>JA</div>
-      <div class="about-copy"><p class="eyebrow">Javier + Roberto</p><h2>Experiencia de obra.<br>Mentalidad de estudio.</h2><p class="about-lead">ROJA nace después de años reformando, resolviendo imprevistos y construyendo una red de profesionales en Valencia.</p><p>Combinamos planificación, criterio técnico y ejecución para asumir el control completo de cada proyecto. Cuando una actuación requiere arquitectura o cálculo estructural, coordinamos al técnico habilitado correspondiente sin romper el hilo del proyecto.</p></div>
+      <div class="about-copy"><p class="eyebrow">Sobre nosotros</p><h2>Ejecutamos en obra.<br>Lo planificamos en el estudio.</h2><p class="about-lead">ROJA nace después de años reformando, resolviendo imprevistos y construyendo una red de profesionales en Valencia.</p><p>Combinamos planificación, criterio técnico y ejecución para asumir el control completo de cada proyecto. Cuando una actuación requiere arquitectura o cálculo estructural, coordinamos al técnico habilitado correspondiente sin romper el hilo del proyecto.</p></div>
     </section>
 
-    <section class="contact" id="contacto"><p class="eyebrow">¿Tienes una reforma en mente?</p><h2>Cuéntanos el espacio.<br>Nosotros ordenamos el resto.</h2><p>Estamos preparando nuestros canales de contacto. Muy pronto podrás solicitar una primera visita desde aquí.</p><div class="contact-meta"><span>Valencia y provincia</span><span>Reformas · Obras · Interiores</span></div></section>
+    <section class="contact" id="contacto">
+      <div class="contact-intro"><p class="eyebrow">¿Tienes una reforma en mente?</p><h2>Cuéntanos qué necesitas.<br>Nosotros nos ocupamos de la obra.</h2><p>Escríbenos a <a href="mailto:info@rojaestudio.es">info@rojaestudio.es</a> o solicita un presupuesto. Te responderemos para concertar una primera visita.</p></div>
+      <form class="budget-form" action="contacto.php" method="post">
+        <input type="hidden" name="origen" value="Formulario de presupuesto">
+        <label>Nombre y apellidos<input type="text" name="nombre" autocomplete="name" required></label>
+        <div class="form-row"><label>Correo electrónico<input type="email" name="email" autocomplete="email" required></label><label>Teléfono<input type="tel" name="telefono" autocomplete="tel"></label></div>
+        <div class="form-row"><label>Tipo de proyecto<select name="proyecto" required><option value="" selected disabled>Selecciona una opción</option><option>Vivienda integral</option><option>Exterior y piscina</option><option>Local comercial</option><option>Otro</option></select></label><label>Localidad<input type="text" name="localidad" autocomplete="address-level2"></label></div>
+        <label>Cuéntanos qué necesitas<textarea name="mensaje" rows="5" required></textarea></label>
+        <label class="form-consent"><input type="checkbox" name="privacidad" value="aceptada" required><span>Acepto que ROJA Estudio utilice estos datos para responder a mi solicitud.</span></label>
+        <label class="form-trap" aria-hidden="true">No rellenar<input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+        <button class="button form-button" type="submit">Solicitar presupuesto</button>
+      </form>
+      <div class="contact-meta"><a href="mailto:info@rojaestudio.es">info@rojaestudio.es</a><span>Valencia y provincia</span><span>Reformas · Obras · Interiores</span></div>
+    </section>
 
     <footer><a class="brand footer-brand" href="#inicio"><span>ROJA</span><small>ESTUDIO</small></a><p>Reformas y ejecución integral en Valencia.</p><p>© 2026 ROJA Estudio</p></footer>
   </main>
